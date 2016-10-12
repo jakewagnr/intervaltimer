@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Impact", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    width: auto;
+}
+
+h2 {
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    padding: 20px 40px;
+    width: 25%;
+    margin: 5% auto;
+    color: white;
+}
+
+h2:active {
+    border-color: #bbb;
+    border-style: inset;
+    color: #bbb;
+}
+
+h3 {
+    text-align: center;
+    width: auto;
+}
