@@ -9,4 +9,24 @@
 </head>
 <h1 class="title">SETUP</h1>
 
-<body> </body>
+<body>
+    <form>
+        <h3>WARM UP</h3>
+        <input type="range" name="warmUp" id="warmUpId" value="15" min="0" max="30" oninput="warmUpOutput.value = warmUpId.value">
+        <p>
+            <output name="warmUpOutput" id="warmUpOutput">15 </output> min </p>
+        <h3>INTERVAL</h3>
+        <input type="range" name="work" id="workId" value="60" min="0" max="120" oninput="workOutput.value = workId.value">
+        <p>
+            <output name="workOutput" id="workOutput">60 </output> sec </p>
+        <h3>REST</h3>
+        <input type="range" name="rest" id="restId" value="5" min="0" max="10" oninput="restOutput.value = restId.value">
+        <p>
+            <output name="restOutput" id="restOutput">5 </output> min </p>
+            <h3>COOL DOWN</h3>
+        <input type="range" name="coolDown" id="coolDownId" value="15" min="0" max="30" oninput="coolDownOutput.value = coolDownId.value">
+        <p>
+            <output name="coolDownOutput" id="coolDownOutput">15 </output> min </p>
+    </form>
+    <script type="text/javascript" src="js/timer.js"></script>
+</body>

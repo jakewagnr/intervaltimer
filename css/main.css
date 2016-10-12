@@ -6,6 +6,7 @@ body {
     padding: 4em 1em;
     color: white;
     background-color: black;
+    text-align: center;
 }
 
 h1 {
@@ -33,4 +34,9 @@ h2:active {
 h3 {
     text-align: center;
     width: auto;
+}
+
+form{
+    display:inline-block;
+    
 }
