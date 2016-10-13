@@ -12,6 +12,7 @@ body {
 h1 {
     text-align: center;
     width: auto;
+    color: red;
 }
 
 h2 {
@@ -41,3 +42,17 @@ form {
     
 }
 
+div{ 
+border: 5px solid white;
+margin: 5px;
+padding: 5px 5px 10px 5px;
+width: 250px;
+}
+
+input{
+    padding: 5px 10px 10px 10px;
+}
+
+output{
+    color: red;
+}
